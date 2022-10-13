@@ -1,8 +1,8 @@
 let printed = document.querySelector(".calculator")
 
- function calc(e){
- console.log(printed.innerHTML.length)
+function calc(e){
  printed.innerHTML += e
+  
   if(e === 'C'){
     printed.innerHTML = ''
   
@@ -11,8 +11,6 @@ let printed = document.querySelector(".calculator")
   }
 }
 function result(){
-  
   printed.innerHTML = eval(printed.innerHTML)
- 
- }
+}
 
