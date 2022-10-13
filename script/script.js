@@ -1,7 +1,6 @@
 let printed = document.querySelector(".calculator")
 
-
- function calc(e){
+function calc(e){
 
  printed.innerHTML += e
   
