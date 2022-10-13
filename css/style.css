@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.container{
+  width: 320px;
+  height: 500px;;
+  margin: 10% auto;
+  border: 1px solid transparent;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 25px;
+  background: rgb(41, 175, 228);
+}
+
+.calculator{
+  background: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10% auto 5% auto;
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  overflow-x: auto;
+}
+.section{
+  display: flex;
+  background: transparent;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+}
+.section div{
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(226, 65, 65), rgb(168, 20, 20));
+  text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.925);
+  margin: 10px 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(19, 17, 17, 0.925);
+}
+div{
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: azure;
+}
+.element{
+  color:rgb(240, 218, 27);
+}
+.invisible{
+visibility: hidden;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css">
+  <script defer src="script\script.js"></script>
+  <title>Calculadora</title>
+</head>
+<body>
+  <main class="container">
+  <div>
+    <div maxLenght="1" type='text' class="calculator"></div>
+  </div>
+  <section class="section">
+    <div class="element" onclick="calc('C')">C</div>
+    <div class="element" onclick="calc('')">CE</div>
+    <div class="element" onclick="calc('%')">%</div>
+    <div class="element" onclick="calc('/')">÷</div>
+    <div onclick="calc(7)">7</div>
+    <div onclick="calc(8)">8</div>
+    <div onclick="calc(9)">9</div>
+    <div class="element" onclick="calc('*')">x</div>
+    <div onclick="calc(4)">4</div>
+    <div onclick="calc(5)">5</div>
+    <div onclick="calc(6)">6</div>
+    <div class="element" onclick="calc('-')">-</div>
+    <div onclick="calc(1)">1</div>
+    <div onclick="calc(2)">2</div>
+    <div onclick="calc(3)">3</div>
+    <div class="element" onclick="calc('+')">+</div>
+    <div class="invisible"></div>
+    <div onclick="calc(0)">0</div>
+    <div class="element" onclick="calc('.')">.</div>
+    <div class="element" onclick="result()">=</div>
+  </section>
+  </main>
+</body>
+</html>
