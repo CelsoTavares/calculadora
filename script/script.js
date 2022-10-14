@@ -1,8 +1,7 @@
 let printed = document.querySelector(".calculator")
 
  function calc(e){
-  
-   printed.innerHTML += e
+  printed.innerHTML += e
   
    if(e === 'AC'){
     printed.innerHTML = ''
@@ -41,11 +40,12 @@ let printed = document.querySelector(".calculator")
   }else if(printed.innerHTML === '%' || 
   printed.innerHTML === '*' || 
   printed.innerHTML === '/'){
-  
-    printed.innerHTML = '';
+
+  printed.innerHTML = '';
   }
 }
 function result(){
    printed.innerHTML = eval(printed.innerHTML)
- }
+}
+
 
