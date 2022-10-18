@@ -1,11 +1,10 @@
 # Calculadora
 
-
-![calculadoraFoto](https://user-images.githubusercontent.com/109553661/195747766-a138cdcd-d27f-4eea-b9ea-9c295aaa6c45.png)
+https://user-images.githubusercontent.com/109553661/196319221-674c4688-5c77-47d4-ac04-2aba862b02e8.mp4
 
 ## Sobre
     
-####  Calculadora, desenvolvida com objetivo de praticar as tecnologias apreendidas.  
+Colocando o aprendizado em prática, resolvi desenvolver essa linda calculadora.  
 
 ## Tecnologias 
 
